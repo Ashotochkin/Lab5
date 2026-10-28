@@ -1,4 +1,4 @@
-string = input("Введите любую строку:\n")
+string = input("Введите любую строку, программа найдёт сколько там цифр:\n")
 c = 0
 for i in string:
     if i.isdigit():
